@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Page</title>
+</head>
+<body>
+
+    <!-- Header: Represents introductory content, usually a group of introductory or navigational aids. -->
+    <header>
+        <h1>My Awesome Blog</h1>
+        <p>Exploring the wonders of semantic HTML</p>
+    </header>
+
+    <!-- Navigation: Represents a section of navigation links. -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main: Represents the dominant content of the <body> of a document. -->
+    <main>
+
+        <!-- Section: Represents a standalone section of a document, which doesn't have a more specific semantic element to represent it. -->
+        <section id="articles">
+            <h2>Latest Articles</h2>
+
+            <!-- Article: Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. -->
+            <article>
+                <h3>Understanding Semantic HTML</h3>
+                <p>Published on: <time datetime="2025-07-23">July 23, 2025</time> by Jane Doe</p>
+                <p>Semantic HTML elements clearly describe their meaning to both the browser and the developer. They help improve accessibility and SEO.</p>
+                <p>For example, instead of using a generic `<div>` for your main content, you use `<main>`. For a blog post, you use `<article>`.</p>
+
+                <!-- Figure and Figcaption: Used to mark up a self-contained content, often with a caption. -->
+                <figure>
+                    <img src="https://placehold.co/400x200/cccccc/000000?text=Semantic+Example" alt="Diagram showing semantic HTML structure">
+                    <figcaption>A visual representation of semantic HTML structure.</figcaption>
+                </figure>
+
+                <p>Using semantic tags like `<strong>` for important text and `<em>` for emphasis makes your content more understandable to screen readers and search engines.</p>
+            </article>
+
+            <article>
+                <h3>Why Accessibility Matters</h3>
+                <p>Published on: <time datetime="2025-07-20">July 20, 2025</time> by John Smith</p>
+                <p>Making your website accessible means ensuring everyone, regardless of ability, can use and understand your content. Semantic HTML is a key part of this.</p>
+            </article>
+        </section>
+
+        <!-- Aside: Represents a portion of a document whose content is only indirectly related to the document's main content. -->
+        <aside>
+            <h3>Related Topics</h3>
+            <ul>
+                <li><a href="#">HTML5 New Features</a></li>
+                <li><a href="#">ARIA Attributes</a></li>
+                <li><a href="#">Web Development Best Practices</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Footer: Represents a footer for its nearest sectioning content or sectioning root element. -->
+    <footer>
+        <p>&copy; 2025 My Awesome Blog. All rights reserved.</p>
+        <address>
+            Contact us at: <a href="mailto:info@example.com">info@example.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
